@@ -1,0 +1,15 @@
+.results-wrap{max-width:980px;margin:18px auto;padding:0 16px}
+.results-wrap h2{color:#0a60ad}
+.sub{color:#6a7f93;margin-bottom:10px}
+.result-card{display:flex;gap:14px;align-items:center;background:#fff;border:1px solid var(--ring);border-radius:12px;box-shadow:var(--shadow);padding:12px;margin:10px 0}
+.result-img{width:150px;height:100px;object-fit:cover;border-radius:10px}
+.result-main{flex:1}
+.result-title{font-weight:800;margin-bottom:4px}
+.result-line{color:#5f768f;font-size:14px}
+.result-side{text-align:right}
+.result-price{font-weight:900}
+.result-btn{background:var(--blue-dark);color:#fff;border:none;padding:8px 14px;border-radius:10px;cursor:pointer;margin-top:6px}
+.result-avail{margin-top:6px;color:#f39c12}
+.empty{text-align:center;background:#fff;border:1px solid var(--ring);border-radius:12px;box-shadow:var(--shadow);padding:28px;margin-top:12px}
+.empty-title{font-weight:900;margin-bottom:6px}
+.empty-sub{color:#6a7f93}

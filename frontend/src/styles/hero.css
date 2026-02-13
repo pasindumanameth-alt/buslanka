@@ -1,0 +1,15 @@
+.hero{background:linear-gradient(180deg,#e8f3ff 0%, #f8fbff 90%);padding:22px 16px 40px;border-bottom:1px solid #dfeaf7}
+.tabs{display:flex;gap:8px;justify-content:center;margin:8px auto 14px}
+.tabs button{background:#e8f1fd;border:1px solid #d5e6ff;padding:6px 12px;border-radius:999px;color:#2c5590;cursor:pointer}
+.tabs button.active{background:var(--blue);border-color:var(--blue);color:#fff}
+.booking-card{position:relative;max-width:980px;margin:0 auto;background:#fff;border:1px solid var(--ring);box-shadow:var(--shadow);border-radius:16px;padding:16px 16px 24px}
+.row{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;align-items:end}
+.field label{display:block;font-size:12px;color:#5b7288;margin-bottom:4px}
+.field select,.field input{width:100%;padding:9px;border:1px solid #cfe0ff;border-radius:8px}
+.field.small .triptype{display:flex;gap:10px;color:#385a86;font-size:12px}
+.search-btn{background:var(--blue);color:#fff;border:none;padding:10px 16px;border-radius:10px;cursor:pointer}
+.hero-bus{position:absolute;right:18px;bottom:-10px;width:260px;max-width:35%}
+@media (max-width:900px){
+  .row{grid-template-columns:1fr 1fr}
+  .hero-bus{display:none}
+}

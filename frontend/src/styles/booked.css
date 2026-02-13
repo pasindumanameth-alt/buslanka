@@ -1,0 +1,18 @@
+.booked-wrap{max-width:1000px;margin:20px auto;padding:0 12px}
+.head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.sub{color:#6a7f93;margin-top:4px}
+.back{color:#0a60ad}
+
+.toolbar{display:flex;justify-content:space-between;align-items:center;margin:12px 0}
+.search{flex:1;max-width:420px;padding:10px;border:1px solid #d6e6ff;border-radius:10px}
+.pill{background:#f4f9ff;border:1px solid #d8e9ff;border-radius:999px;padding:6px 12px;color:#355978}
+
+.table{background:#fff;border:1px solid #d6e6ff;border-radius:12px;box-shadow:0 10px 26px rgba(0,0,0,.06)}
+.thead,.trow{display:grid;grid-template-columns:120px 1fr 220px 1.2fr;gap:10px;padding:12px 14px}
+.thead{font-weight:800;background:#f6f9fe;border-bottom:1px solid #e6eefb}
+.trow{border-top:1px solid #eef4ff}
+.trow:first-of-type{border-top:none}
+
+.empty{text-align:center;background:#fff;border:1px solid #d6e6ff;border-radius:12px;padding:28px;box-shadow:0 10px 26px rgba(0,0,0,.06)}
+.empty-title{font-weight:900;margin-bottom:6px}
+.empty-sub{color:#6a7f93}
